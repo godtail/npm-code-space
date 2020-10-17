@@ -1,0 +1,22 @@
+{
+  "name": "code-space",
+  "version": "1.0.1",
+  "description": "A Code Workspace cli tool",
+  "repository": "git@github.com:godtail/npm-code-space.git",
+  "author": "godtail <i@tech.top>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/commands/code-space.ts",
+    "prepublish": "tsc"
+  },
+  "main": "dist/commands/code-space.js",
+  "bin": {
+    "iconfont": "dist/commands/code-space.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {}
+}
