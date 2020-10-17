@@ -11,7 +11,7 @@
   },
   "main": "dist/commands/code-space.js",
   "bin": {
-    "iconfont": "dist/commands/code-space.js"
+    "code-space": "dist/commands/code-space.js"
   },
   "devDependencies": {
     "@types/node": "^14.11.8",
