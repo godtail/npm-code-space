@@ -7,7 +7,7 @@ const main = () => {
   const codeSpace = process.env.CODE_SPACE;
 
   if (!codeSpace) {
-    console.error('Please set env WORK_SPACE before');
+    console.error('Please set env CODE_SPACE before');
     return;
   }
 
